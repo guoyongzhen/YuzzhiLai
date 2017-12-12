@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+      android:text="学习"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+<com.youth.banner.Banner
+       android:id="@+id/Bn"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"></com.youth.banner.Banner>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="25dp">
+    <TextView
+        android:text=">"
+        android:textSize="20dp"
+        android:layout_width="20dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="免费试听"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_width="70dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="查看全部"
+        android:layout_marginLeft="300dp"
+        android:layout_width="70dp"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+        <TextView
+            android:text=">"
+            android:textSize="20dp"
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="精选课程"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="查看全部"
+            android:layout_marginLeft="300dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvjx"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+        <TextView
+            android:text=">"
+            android:textSize="20dp"
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="精选专辑"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="查看全部"
+            android:layout_marginLeft="300dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvzhuanji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
