@@ -5,5 +5,4 @@ package com.example.yuzhilaixiangmu.app;
  */
 
 public class APpppp {
-
 }
