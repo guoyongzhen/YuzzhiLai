@@ -40,7 +40,6 @@ public class MainActivityyuzhilaixiamgmu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activityyuzhilaixiamgmu);
         mb=(BottomTabBar)findViewById(R.id.bottom_tab_bar);
-
         mb.init(getSupportFragmentManager())
                 .setImgSize(50,50)
                 .setFontSize(8)
